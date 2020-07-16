@@ -1,4 +1,4 @@
-# Submissions Viewer
+# Submissions viewer
 View grades and submissions from students in realtime
 ## Steps
 1. Install [Anaconda](https://www.anaconda.com/products/individual)
