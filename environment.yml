@@ -1,4 +1,4 @@
-name: teacher_utils
+name: submissions_viewer
 channels:
   - defaults
 dependencies:
