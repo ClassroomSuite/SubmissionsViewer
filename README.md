@@ -4,7 +4,7 @@ View grades and submissions from students in realtime
 1. Install [Anaconda](https://www.anaconda.com/products/individual)
 2. Clone repo
     ```
-    git clone https://github.com/TestOrgJustAymeric/TeacherUtils.git
+    git clone https://github.com/ClassroomSuite/SubmissionsViewer.git
     cd TeacherUtils
     ```
 3. Create conda environment
