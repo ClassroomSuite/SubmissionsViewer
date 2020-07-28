@@ -19,4 +19,9 @@ View grades and submissions from students in realtime
     ```
    jupyter notebook
    ```
-6. Open [submissions_viewer.ipynb](submissions_viewer.ipynb) in Jupyter
+6. Install package
+    ```
+    python -m pip install --upgrade -e .
+    ```
+7. Open [submissions_viewer.ipynb](submissions_viewer.ipynb) in Jupyter
+8. Go to Cell and select Run All
