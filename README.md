@@ -24,4 +24,4 @@ View grades and submissions from students in realtime
     python -m pip install --upgrade -e .
     ```
 7. Open [submissions_viewer.ipynb](submissions_viewer.ipynb) in Jupyter
-8. Go to Cell and select Run All
+8. Go to Kernel and select Restart & Run All
