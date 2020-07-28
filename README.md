@@ -13,7 +13,7 @@ View grades and submissions from students in realtime
     ```
 4. Activate conda environment
     ```
-    conda activate teacher_utils
+    conda activate submissions_viewer
     ```
 5. Open Jupyter
     ```
