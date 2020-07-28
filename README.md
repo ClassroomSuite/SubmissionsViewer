@@ -5,7 +5,7 @@ View grades and submissions from students in realtime
 2. Clone repo
     ```
     git clone https://github.com/ClassroomSuite/SubmissionsViewer.git
-    cd TeacherUtils
+    cd SubmissionsViewer
     ```
 3. Create conda environment
     ```
