@@ -233,14 +233,15 @@ class FilesWidgets:
         files = []
         self.wg['get_files_status'].value = True
         self.wg['get_files_status'].description = f'Success'
+        num_failed = 0
         for url in urls:
             try:
                 file = get_file(url)
                 files.append(file)
-            except Exception as e:
+            except:
                 files.append('Couldn\'t get file')
                 self.wg['get_files_status'].value = False
-                self.wg['get_files_status'].description = f'{e}'
+                self.wg['get_files_status'].description = f'{num_failed} failed'
         return files
 
     def update_selection_options(self):
