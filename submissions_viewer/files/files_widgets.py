@@ -239,6 +239,7 @@ class FilesWidgets:
                 file = get_file(url)
                 files.append(file)
             except:
+                num_failed += 1
                 files.append('Couldn\'t get file')
                 self.wg['get_files_status'].value = False
                 self.wg['get_files_status'].description = f'{num_failed} failed'
