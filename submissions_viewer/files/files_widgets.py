@@ -21,7 +21,6 @@ def get_line_counts(files):
     for f in files:
         lines = f.split('\n')
         unique_lines = set(lines)
-        scores_per_file = []
         for line in unique_lines:
             line_counts.setdefault(line, 0)
             line_counts[line] += 1
