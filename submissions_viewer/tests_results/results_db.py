@@ -10,7 +10,11 @@ class ResultsDB:
             res = requests.get(url)
             if res.ok:
                 self.db.clear()
-                self.db.update(res.json())
+                new_db = res.json()
+                if new_db is None:
+                    self.db.clear()
+                else:
+                    self.db.update(new_db)
             else:
                 self.db.clear()
                 raise Exception(f'Bad request: {res.text}')
